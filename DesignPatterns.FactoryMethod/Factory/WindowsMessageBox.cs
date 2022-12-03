@@ -1,9 +1,9 @@
 ﻿namespace DesignPatterns.FactoryMethod.Factory;
 
-internal class IosMessageBox : MessageBox
+internal class WindowsMessageBox : MessageBox
 {
     public override UiButton CreateUiButton()
     {
-        return new IosUiButton();
+        return new WindowsUiButton();
     }
 }
