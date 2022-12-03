@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.FactoryMethod;
+﻿namespace DesignPatterns.FactoryMethod.Model;
 
 internal class IosUiButton : UiButton
 {

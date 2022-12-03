@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.FactoryMethod;
+﻿using DesignPatterns.FactoryMethod.Model;
+
+namespace DesignPatterns.FactoryMethod;
 
 internal class WindowsUiButton : UiButton
 {

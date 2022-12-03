@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.FactoryMethod.Factory;
+﻿using DesignPatterns.FactoryMethod.Model;
+
+namespace DesignPatterns.FactoryMethod.Factory;
 
 internal class IosMessageBox : MessageBox
 {
