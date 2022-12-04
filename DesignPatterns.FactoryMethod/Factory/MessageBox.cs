@@ -6,12 +6,12 @@ internal abstract class MessageBox
 {
     public void Render()
     {
-        Console.WriteLine("---- Rendering Message Box UI according to operating system ----");
+        Console.WriteLine("---- Rendering Message Box Logic ----");
 
         var button = CreateUiButton();
         button.Render();
 
-        Console.WriteLine("-------------------------- Rendered ---------------------------");
+        Console.WriteLine("---------- Rendered ---------------\r\n");
     }
 
     public abstract UiButton CreateUiButton();
